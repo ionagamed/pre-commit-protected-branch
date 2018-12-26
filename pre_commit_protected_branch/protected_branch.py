@@ -31,7 +31,10 @@ def main(argv=None):
             choice = input('You are trying to push into a protected branch (one of {}). Would you really like to do it [y/n]?')
             if choice == 'y':
                 return 0
-    return 1
+        else:
+            print('Not in a tty, disallowing push')
+            return 1
+    return 0
 
 
 if __name__ == '__main__':
