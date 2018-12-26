@@ -1,0 +1,7 @@
+- id: protected-branch
+  name: protected branch
+  description: Protect branches from committing without a dialogue
+  entry: protected-branch
+  language: python
+  pass_filenames: false
+  always_run: true
