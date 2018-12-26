@@ -1,7 +1,7 @@
 - id: protected-branch
-  name: protected branch
+  name: Protected branch
   description: Protect branches from committing without a dialogue
-  entry: protected-branch
+  entry: pre-commit-protected-branch
   language: python
   pass_filenames: false
   always_run: true
