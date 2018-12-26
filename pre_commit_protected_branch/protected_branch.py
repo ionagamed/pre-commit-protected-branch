@@ -4,8 +4,8 @@ import os
 import sys
 import argparse
 
-from pre_commit_hooks.util import CalledProcessError
-from pre_commit_hooks.util import cmd_output
+from pre_commit_protected_branch.util import CalledProcessError
+from pre_commit_protected_branch.util import cmd_output
 
 
 def is_on_branch(protected):
